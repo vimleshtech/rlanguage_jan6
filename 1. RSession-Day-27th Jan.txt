@@ -1,0 +1,82 @@
+
+	https://github.com/vimleshtech/rlanguage_jan6
+
+
+============================================
+============================================
+Today's Topics
+=======================
+-R Objective 
+-R Environment
+
+-R DataTypes 
+-R Variables 
+-R Keywords/Reserver Words
+-Conditional statement 
+
+
+
+-R Objective /Applications
+===========================
+-> DataScience
+-> Machine Learning
+-> Stats 
+-> Automation 
+
+
+R vs Python
+	-> Python is easy to understand and learning in terms of programing
+	-> R providers inbuilt functions/model for stats/ML/Automation 
+
+
+R Environment
+======================
+->R Interpreter  or R Console 
+	https://cran.r-project.org/bin/windows/base/
+
+	x86		- 32bit
+	x64		- 64bit
+-> RStudio  : Editor 
+	https://www.rstudio.com/products/rstudio/download/
+
+	
+=============================
+R DataTypes 
+=============================
+literal 
+	  a =11     #numeric/number/double 
+	  a =333.3
+	  b ="skjgshsh 1111" #string/text/alphanumeric
+	  a =TRUE     # boolean 
+
+		
+	a <- 10
+	10 -> a 
+	or
+	a =10
+	
+		
+Collection:
+	a =c(111,2222,3333,4444)  #vector 
+
+
+
+typeof(a)		: return value type name 
+is.numeric(1)		: return true /false 
+as.numeric(data)	: convert to numeric/other type 
+			: typecasting
+
+keywords
+==========================
+letters
+
+
+
+
+
+
+
+
+
+
+
