@@ -1,0 +1,53 @@
+
+#linear graph 
+x <- c(1:10)
+y <- x*2
+
+plot(x,y,xlab = "X Axis",ylab = "Y Axis",main = "Header")
+
+
+#pie char
+x <- c(21, 62, 10, 53,33)
+labels <- c("London", "New York", "Singapore", "Mumbai")
+
+
+
+pie(x)
+
+pie(x,labels)
+
+#rainbow(100)
+
+pie(x,labels,main="Country wise temp.", col = rainbow(length(x)))
+
+pie(x,labels,main="Country wise temp.", col = rainbow(length(x)),clockwise = TRUE)
+
+pie(x,labels,main="Country wise temp.", col = rainbow(length(x)),clockwise = FALSE)
+
+pie(x,labels,main="Country wise temp.", col = rainbow(length(x)))
+legend("topright", c("London","New York","Singapore","Mumbai"), cex = 0.9,
+       fill = rainbow(length(x)))
+
+
+#######################
+H <- c(7,12,28,3,41)
+M <- c("Mar","Apr","May","Jun","Jul")
+
+barplot(H)
+
+barplot(H,names.arg =  M)
+
+barplot(H,names.arg =  M,   xlab = "MONTH")
+
+barplot(H,names.arg =  M,   xlab = "MONTH",ylab = "height")
+
+barplot(H,names.arg =  M,   xlab = "MONTH",ylab = "height",main="temp. and month")
+
+barplot(H,names.arg =  M,   xlab = "MONTH",ylab = "height",main="temp. and month",
+        col=rainbow(length(H)))
+
+
+
+barplot(H,names.arg =  M,   xlab = "MONTH",ylab = "height",main="temp. and month",
+        col=c("red","green","red","blue","yellow"))
+
